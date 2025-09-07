@@ -1,5 +1,6 @@
 {
   "name": "cooksy",
+  "homepage": "https://misbahtv.github.io/cooksy-ai/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,10 +9,13 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@huggingface/inference": "^4.7.1",
     "bootstrap-icons": "^1.13.1",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-markdown": "^10.1.0"
