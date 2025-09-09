@@ -1,4 +1,5 @@
 import "../assets/bootstrap/css/bootstrap.min.css";
+import "../../public/icon.png"
 
 export default function Nav() {
   return (
