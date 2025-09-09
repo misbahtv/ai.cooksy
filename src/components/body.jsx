@@ -82,8 +82,8 @@ export default function Main() {
             </div>
           </div>
         </section>
-        <section id="recipe"className="container mb-5">
-          <div  className="col-8 mx-auto">
+        <section id="recipe"className="container mb-2">
+          <div  className="col-sm col-md-8 mx-auto">
             {recipe && <Recipe recipe={recipe} />}
           </div>
         </section>
